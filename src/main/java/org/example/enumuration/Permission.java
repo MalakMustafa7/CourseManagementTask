@@ -1,0 +1,22 @@
+package org.example.enumuration;
+
+public enum Permission {
+
+    CREATE_COURSE,
+    DELETE_COURSE,
+
+    CREATE_USER,
+    DELETE_USER,
+
+    ENROLL_STUDENT,
+
+    ASSIGN_GRADE,
+    VIEW_STUDENT_GRADES,
+    VIEW_STUDENT_ENROLLMENTS,
+
+    VIEW_ALL_COURSES,
+    VIEW_INSTRUCTOR_COURSES,
+    VIEW_ALL_STUDENTS,
+    VIEW_ALL_INSTRUCTORS
+}
+
